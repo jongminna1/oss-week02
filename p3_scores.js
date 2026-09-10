@@ -13,7 +13,17 @@ const scores = Array.from({ length: 20 }, () => Math.floor(Math.random() * 101))
 console.log("start:", scores);
 
 // (a)
-
+const s1=scores.filter((n)=>n%2===1);
+const s2=s1.map((n)=>n*2);
+const s3=[...s2].sort((a,b)=>b-a);
+const s4=s3.slice(0,Math.ceil(s3.length/2));
+console.log(s4.join(" "));
 // (b)
-
+const score=scores
+    .filter((n)=>n%2===1)
+    .map((n)=>n*2)
+    .sort((a,b)=>b-a);
+const result = score.slice(0,Math.ceil(score.length/2));
+console.log(result.join(" "));
 // (c)
+console.log(score.join(" "));
