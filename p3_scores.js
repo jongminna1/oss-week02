@@ -26,4 +26,4 @@ const score=scores
 const result = score.slice(0,Math.ceil(score.length/2));
 console.log(result.join(" "));
 // (c)
-console.log(score.join(" "));
+console.log(score.join(" "));//sort manipulates raw array
