@@ -1,3 +1,4 @@
+나종민 광운대
 # oss-week02 — Node, JavaScript, npm
 
 Week 2 hands-on for *Open Source Software Design and Lab* (Kwangwoon Univ., 2026).
